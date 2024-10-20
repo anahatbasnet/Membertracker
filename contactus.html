@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Member Tracker</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Borel&family=Bruno+Ace+SC&family=DM+Sans:opsz,wght@9..40,300;9..40,1000&display=swap"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Borel&family=Bruno+Ace+SC&family=DM+Sans:opsz,wght@9..40,300;9..40,1000&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <section class="header xl:px-28 md:px-8 py-4">
+      <nav
+        class="navBar flex md:justify-between md:pt-5 md:space-x-5 md:py-2 md:px-2 py-7 px-3 justify-between items-center">
+        <div class="logo w-12 h-12 sm:w-auto">
+          <img src="images/Logo Icon.png" alt="Member Tracker" />
+        </div>
+        <div
+          id="menuToggle"
+          class="md:hidden cursor-pointer text-3xl font-light w-12 h-12 sm:w-auto">
+          <i class="fa-solid fa-bars text-[#556987]"></i>
+        </div>
+        <div
+          id="menu"
+          class="hidden absolute w-auto transition-transform duration-500 transform translate-y-20 bg-transparent md:relative md:transform-none md:translate-y-0 md:flex md:text-xl text-[14px] items-center md:font-normal md:space-x-6 pr-2">
+          <a
+            href="index.html"
+            class="Home hover:underline decoration-[#F73C6B] md:hover:underline-offset-8 hover:underline-offset-4"
+            >Home</a
+          >
+          <a
+            href="#aboutus"
+            class="About hover:underline decoration-[#F73C6B] md:hover:underline-offset-8 hover:underline-offset-4"
+            >About Us</a
+          >
+          <a
+            href="contactus.html"
+            class="md:bg-[#FFBD6D] md:px-4 md:py-4 rounded-2xl text-sm hover:bg-[#f4b74d] decoration-[#F73C6B] hover:underline-offset-4 md:text-lg"
+            >Contact Us</a
+          >
+        </div>
+      </nav>
+    </section>
+    <section
+      class="contactus py-0 sm:py-14 sm:px-16 border-spacing-9 flex-col lg:flex-row flex shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
+      <div class="map flex border sm:flex-1 flex-col ]">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.4684036823082!2d85.31173568165237!3d27.67191431484366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19d28839054b%3A0x9d7161cfb445f537!2sSoAni%20Tech%20Nepal%20Pvt.%20Ltd.!5e0!3m2!1sen!2snp!4v1694597193285!5m2!1sen!2snp"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="lg:h-[742px]  h-[350px]"></iframe>
+      </div>
+      <div
+        class="form flex sm:flex-1 flex-col justify-center md:p-16 p-7 gap-2 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
+        <div
+          class="heading font-poppins font-semibold text-4xl text-center text-purple-950">
+          <h1>Contact Us</h1>
+        </div>
+        <label for="firstname">First Name:</label>
+        <input
+          type="text "
+          placeholder="First Name "
+          required
+          class="border p-2" />
+        <label for="firstname">Last Name:</label>
+        <input
+          type="text  "
+          placeholder="Last Name "
+          required
+          class="border p-2" />
+        <label for="firstname">Phone Number:</label>
+        <input
+          type="text  "
+          placeholder="Phone Number "
+          required
+          class="border p-2" />
+        <label for="firstname">Email:</label>
+        <input
+          type="email "
+          placeholder=" Email "
+          required
+          class="border p-2" />
+        <label for="firstname">Description:</label>
+        <textarea rows="4" class="border pt-2"> </textarea>
+        <div class="flex justify-center">
+          <button
+            href="contactus.html"
+            class="bg-[#FFBD6D] px-4 py-4 rounded-2xl  hover:bg-[#f4b74d] decoration-[#F73C6B] h  sm:w-[18rem] mt-4 w-[12rem]">
+            SUBMIT
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer md:flex justify-center">
+      <div
+        class="footer bg-[#172432] text-white justify-center items-center space-y-4 md:flex md:space-x-28 md:py-20">
+        <div
+          class="grid sm:grid-cols-5 grid-cols-1 sm:gap-6 md:px-28 px-6 py-10 gap-5">
+          <div class="space-y-8">
+            <img src="./images/Logo footer.png" alt="" />
+            <p class="">Copyright © Travellian 2020 All rights reserved</p>
+          </div>
+
+          <ul class="font-bold menu leading-7 list-none">
+            Menu
+            <li class="font-light">Home</li>
+            <li class="font-light">Explore</li>
+            <li class="font-light">Travel</li>
+          </ul>
+
+          <ul class="font-bold Information leading-7 list-none">
+            Information
+            <li class="font-light">Supports</li>
+            <li class="font-light">Terms & Conditions</li>
+            <li class="font-light">Privacy</li>
+          </ul>
+
+          <ul class="font-bold Contact-Info leading-7 list-none">
+            Contact Info
+            <li class="font-light">+123 456 789</li>
+            <li class="font-light">info@tracker.com</li>
+            <li class="font-light">1245, New Yourk, USA</li>
+          </ul>
+
+          <div class="font-bold follow leading-7 list-none">
+            Follow us on
+            <ul class="text-white flex gap-5 py-2">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-pinterest"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="navbar.js"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>

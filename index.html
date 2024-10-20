@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Member Tracker</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+      <link rel="stylesheet" href="./style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Borel&family=Bruno+Ace+SC&family=DM+Sans:opsz,wght@9..40,300;9..40,1000&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Borel&family=Bruno+Ace+SC&family=DM+Sans:opsz,wght@9..40,300;9..40,1000&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <section class="header  xl:px-28 md:px-8 py-4 ">
+         <nav class="navBar flex md:justify-between md:pt-5  md:space-x-5 md:py-2 md:px-2 py-7 px-3  justify-between items-center">
+            <div class="logo w-12 h-12 sm:w-auto ">
+               <img src="images/Logo Icon.png" alt="Member Tracker">
+            </div>
+            <div id="menuToggle" class="md:hidden cursor-pointer text-3xl font-light w-12 h-12 sm:w-auto ">
+               <i class="fa-solid fa-bars text-[#556987]"></i>
+            </div>
+            <div id="menu" class="hidden absolute w-auto transition-transform duration-500 transform translate-y-20 bg-transparent md:relative md:transform-none md:translate-y-0 md:flex md:text-xl text-[14px] items-center md:font-normal md:space-x-6   pr-2">
+               <a href="index.html" class="Home hover:underline decoration-[#F73C6B] md:hover:underline-offset-8 hover:underline-offset-4">Home</a>
+               <a href="#aboutus" class="About hover:underline decoration-[#F73C6B] md:hover:underline-offset-8 hover:underline-offset-4">About Us</a>
+               <a href="contactus.html" class="md:bg-[#FFBD6D] md:px-4 md:py-4 rounded-2xl text-sm hover:bg-[#f4b74d] decoration-[#F73C6B] hover:underline-offset-4 md:text-lg">Contact Us</a>
+            </div>
+         </nav>
+      </section>
+      <section class="banner  first-page xl:px-28 md:px-8 pb-[4rem] md:pb-0 px-4 md:min-h-[100vh] ">
+         <div class="lg:flex lg:items-center lg:space-x-12    " >
+            <div class=" lg:flex lg:flex-1   bg-no-repeat  md:mb-12  md:p-0 ">
+               <div class="container lg::py-20   ">
+                  <div class="slick-wrapper">
+                     <img class="h-72 w-80 " src="images/lukas-blazek-mcSDtbWXUZU-unsplash 1.png" alt="alt of sports image" title="title of sports image" />
+                     <img class="h-72 w-80 " src="images/lukas-blazek-mcSDtbWXUZU-unsplash 1.png" alt="alt of sports image" title="title of sports image" />
+                     <img class="h-72 w-80 " src="images/lukas-blazek-mcSDtbWXUZU-unsplash 1.png" alt="alt of sports image" title="title of sports image" />
+                  </div>
+               </div>
+            </div>
+            <div class="content flex-1 lg:w-20 " >
+               <div class="description  lg:flex-1  mt-4 text-center md:text-left  ">
+                  <p class=" heading-font  lg:text-[33px]  xl:text-[47px] lg:leading-10 text-[#3F4749] md:text-[31px] font-semibold xl:leading-normal  md:mb-4 sm:text-[25px] text-[25px]    ">Welcome to MyConnect: Collaborate, Communicate, Cooperate
+                  </p>
+                  <p class="paragraph-font  text-center   md:text-justify mt-4 md:mt-0 p-4 md:p-0    md:text-sm lg:text-sm md:leading-7 ">MyConnect brings you a streamlined, easy-to-use online system  to make 
+                     managing your institution's members simpler than ever. Say goodbye to hours of manual
+                     data sorting. Say hello to MyConnect.
+                  </p>
+               </div>
+               <div class="button 
+                md:py-10 py-5 flex justify-center md:justify-start  ">
+                  <button class=" bg-[#FFBD6D] md:px-7 md:py-4 md:rounded-2xl p-4 rounded-md md:font-normal hover:bg-[#f4b74d]  "> Get Started </button>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="keyfeatures bg-white md:px-28" id="aboutus">
+         <div class="secondpage md:mt-[150px]">
+            <div class="title flex justify-center flex-col items-center mb-11 ">
+               <p class="heading-font font-bold    md:text-[38px] text-[28px] mb-4 mt-8  md:mt-0">Our Key Features</p>
+               <p class=" paragraph-font  text-sm pl-2 text-center md:text-base">Highly professional and capable of running your business across all digital channels.</p>
+            </div>
+            <div class="categories lg:flex md:mb-20  md:gap-40 ">
+               <div class="first-category flex-1  ">
+                  <div class=" flex justify-center border bg-red-200 w-16 p-5 m-auto mt-4 rounded-2xl">
+                     <img src="./images//MagicWand.png" alt="Interface">
+                  </div>
+                  <div class="desc flex flex-col justify-center items-center mt-2">
+                     <p class="font-poppins font-semibold md:text-xl md:text-center md:my-[8px]">Easy to Use Interface</p>
+                     <p class="text-center p-2 text-sm">Clean, intuitive, user-friendly – a system that requires no technical knowledge.</p>
+                  </div>
+               </div>
+               <div class="second-category flex-1">
+                  <div class=" flex justify-center border bg-green-200 w-16 p-5 m-auto mt-4 rounded-2xl">
+                     <img src="./images//BoundingBox.png" alt="Robust data management">
+                  </div>
+                  <div class="desc flex flex-col justify-center items-center mt-2">
+                     <p class=" font-poppins font-semibold md:text-xl md:text-center md:my-[8px]">Robust Data Management
+                     </p>
+                     <p class=" text-center p-2 text-sm">Organize, find, and update your member's information with a few clicks.</p>
+                  </div>
+               </div>
+               <div class="third-category flex-1">
+                  <div class=" flex justify-center border bg-orange-100 w-16 p-5 m-auto mt-4 rounded-2xl">
+                     <img src="./images//Confetti.png" alt="All-in-One System">
+                  </div>
+                  <div class="desc flex flex-col justify-center items-center mt-2">
+                     <p class="font-poppins font-semibold md:text-xl md:text-center md:my-[8px]">All-in-One System
+                     </p>
+                     <p class="text-center p-2 text-sm">Recruitment, member profile updates, renewals, communication, and so much more in one integrated system.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="section lgflex-col text-center mt-7 md:mt-0 md:text-left md:mb-5   ">
+               <p class="heading-font text-xl font-semibold lg:text-[38px] lg:mb-[16px]">How It Works Section
+               </p>
+               <p class="paragraph-font">How MyConnect Works for You
+               </p>
+            </div>
+            <div class="process relative lg:flex md:mb-24 justify-between items-center  ">
+               <div class="image mt-4  lg:basis-[50%] relative">
+                  <div class="image ">
+                     <img src="./images/Image Container.png " alt="Working" class=" w-full"  >
+                  </div>
+                  <div class="pattern absolute md:-right-7 md:-bottom-6 hidden md:block ">
+                     <img src="./images/Pattern.png" alt="pattern" >
+                  </div>
+               </div>
+               <div class="process  md:space-y-10  space-y-6 py-4   mb-4  leading-relaxed  basis-[45%] px-5 md:px-0" >
+               
+                  
+               
+                  <div class="pro-1 flex  space-x-6 space-y-1">
+                     <p class="flex justify-center border bg-[#FFBD6D] h-[50px] w-[50px] text-white rounded-[5px] items-center text-[24px]">1</p>
+                     <div class=" space-y-1" >
+                        <p class="font-semibold text-xl">Sign Up & Setup</p>
+                        <p class="font-normal  md:text-left">Reach out to your members, manage their  renewals, <br> or simply update their profiles.</p>
+                     </div>
+                  </div>
+                  
+                  <div class="pro-1 flex  space-x-6 space-y-1 ">
+                     <p class="flex justify-center border bg-[#FFBD6D] h-[50px] w-[50px] text-white rounded-[5px] items-center text-[24px]">2</p>
+                     <div  class=" space-y-1">
+                        <p class="font-semibold text-xl">Input Member Data</p>
+                        <p class="font-normal  md:text-left">Input or import existing member data seamlessly.</p>
+                     </div>
+                  </div>
+                  <div class="pro-1 flex  space-x-6 space-y-1">
+                     <p class="flex justify-center border bg-[#FFBD6D] h-[50px] w-[50px] text-white rounded-[5px] items-center text-[24px]">3</p>
+                     <div class=" space-y-1" >
+                        <p class="font-semibold text-xl">Manage & Communicate</p>
+                        <p class="font-normal  md:text-left">Reach out to your members, manage their  renewals, <br> or simply update their profiles.</p>
+                     </div>
+                  </div>
+                  <div class="pro-1 flex  space-x-6 space-y-1 ">
+                     <p class="flex justify-center border bg-[#FFBD6D] h-[50px] w-[50px] text-white rounded-[5px] items-center text-[24px]">4</p>
+                     <div class=" space-y-1" >
+                        <p class="font-semibold text-xl">Enjoy Automated Processes</p>
+                        <p class="font-normal  md:text-left">Sit back while MyConnect handles the routine tasks.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="video ">
+         <div
+            class="relative flex items-center justify-center  mb-12 overflow-hidden  "
+            >
+            <video
+               autoplay
+               loop
+               muted
+               class=" md:z-10 md:w-auto lg:min-w-full  max-w-none h-[24em] sm:h-full sm
+                "
+               >
+               <source
+                  src="./videos/pexels-rodnae-productions-8217055 (1080p).mp4"
+                  type="video/mp4"
+                  />
+               Your browser does not support the video tag.
+            </video>
+            <div
+               class="absolute z-30 p-[2.5rem] text-2xl text-white bg-opacity-50 rounded-xl text-center space-y-12 h-[25rem]   "
+               >
+               <div class="text-lg md:text-4xl ">Our team is the best in the business.</div>
+               <div class="md:text-6xl font-bold md:mb-4 text-2xl  ">We scratch, build & play together</div>
+               <button class="bg-white md:pl-7 md:pr-7 md:pt-4 md:pb-4 md:rounded-2xl p-3 text-base md:text-2xl rounded-md md:font-normal text-black  ">
+               Contact Us
+               </button>
+            </div>
+         </div>
+         </div>
+      </section>
+      <section class=" slider md:px-28 md:mt-[120px] md:mb-[120px] px-4  " >
+         <div class="space-y-[1rem] p-4 md:p-0 md:mt-12 ">
+            <p class="heading-font flex justify-center font-bold md:text-4xl text-2xl  ">Tools we use</p>
+            <p class="paragraph-font flex justify-center text-[#5C6264] text-center text-xs ">Highly professional and capable of running your business across all digital channels.</p>
+         </div>
+         <div class="relative flex justify-center  mt-8 items-center md:gap-44" id="logoSlider">
+            <div class="slider-container">
+               <div class="slide-item flex flex-col items-center " id="slide1">
+                  <img src="./images/logos_javascript.png" alt="logo1" class="md:h-12 md:m-4 h-10">
+                  <p >JavaScript</p>
+               </div>
+               <div class="slide-item flex flex-col items-center " id="slide2">
+                  <img src="./images/skill-icons_css.png" alt="logo2" class="md:h-12 md:m-4 h-10">
+                  <p>CSS</p>
+               </div>
+               <div class="slide-item flex flex-col items-center " id="slide3">
+                  <img src="./images/skill-icons_react-dark.png" alt="logo3" class="md:h-12 md:m-4 h-10">
+                  <p>React JS</p>
+               </div>
+               <div class="slide-item flex flex-col items-center " id="slide4">
+                  <img src="./images//skill-icons_vuejs-dark.png" alt="logo4" class="md:h-12 md:m-4 h-10">
+                  <p>Vue JS</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="opionions  ">
+      <div class="relative bg-[#96E9B8]  sm:space-y-16 space-y-7 px-7">
+         <div class="fourth-heading md:pt-20 md:space-y-7 leading-7 space-y-6  ">
+            <p class=" heading-font md:text-4xl text-center font-bold text-2xl mt-8 md:mt-0 pt-10 md:pt-0">Let’s Hear What They Says</p>
+            <p class="paragraph-font md:text-xl flex justify-center font-medium text-base md:text-center">Highly professional and capable of running your business across all digital channels.</p>
+         </div>
+         <div class="fourth-body   ">
+            <div class="lg:flex justify-around hidden lg:block ">
+               
+               <img src="images/fourthpage/quote-up.png" alt="">
+               <img src="images/fourthpage/quote-down.png" alt="">
+            </div>
+            <div class=" paragraph-font md:max-w-[600px] flex md:text-center md:text-[#3C227C] md:m-auto text-sm md:text-base  ">
+               <div id="contentContainer">
+                  <p id="contentText"></p>
+               </div>
+            </div>
+         </div>
+         <div class="absolute left-4   md:p-12  hidden lg:block">
+            <img src="./images/fourthpage/Group 2172.png" alt="" >
+         </div>
+         <div class="absolute  right-0   md:p-10  hidden lg:block">
+            <img src="./images/fourthpage/Group 2172.png" alt="">
+         </div>
+         <div class="fourthpage-slider  m-auto flex justify-center md:pt-9 pt-8  ">
+            <div class="fourthpage-slider m-auto flex md:justify-center md:pt-9 md:space-x-8 mb-10 space-x-3" id="imageSlider">
+               <img class="slide md:h-16 md:w-16  h-10 w-10" src="./images/fourthpage/Ellipse 33-1.png" alt="Anahat Basnet" position="Founder of Halida" data-content="When people think about using artificial intelligence (AI) for writing, they immediately jump to 1500-word articles and lengthy social media posts. And yes, these are use cases that AI writing assistants can help with.">
+               <img class="slide md:h-16 md:w-16 h-10 w-10 " src="./images/fourthpage/Ellipse 33.png" alt="Surakshya Thapa " position="CEO of Haribo" data-content="A high-quality paragraph generator transforms everyone on your team into a robust and well-rounded writer. Now anyone can create informative, engaging, and persuasive content one paragraph at a time – whether responding to a lead via email or creating a thought leadership piece to go vira">
+               <img class="slide selected md:h-16 md:w-16 h-10 w-10  " src="./images/fourthpage/Ellipse 34.png" alt="Ricky Aprilia" position="Founder of Varibo" data-content="That’s why, in a moment, we’ll show you how to use Cop.aiI’s paragraph generator to build any text-based asset you need.">
+               <img class="slide md:h-16 md:w-16 h-10 w-10" src="./images/fourthpage/Ellipse 36.png" alt="Miss Shakya" position="Founder of Chaitya:Kala" data-content="Before diving in, though, let’s cover the basics and answer the following: what’s a paragraph generator, how do they work, and why would you want to use one?">
+               <img class="slide md:h-16 md:w-16 h-10 w-10" src="./images/fourthpage/Ellipse 37.png" alt="Anju Shrestha" position="Co-Founder of Oxford" data-content="For example, we decided to generate a paragraph on how AI can help sales and marketing teams grow their business. Here is the input we used:">
+            </div>
+        </div>
+        <div class="md:pb-10">
+            <div class="flex flex-col justify-center items-center text-xl md:text-2xl pb-10 ">
+                <div id="slideDescription" class="text-center "></div>
+                <div id="position" class="text-center font-normal "></div>
+            </div>
+        </div>
+      </div>
+     </section>
+      <section class="Pricing-page flex space-y-5 sm:space-y-0  md:px-10 lg:px-6 xl:px-28  md:mb-20  md:justify-center md:mt-[120px] px-4    ">
+         <div class="flex items-center flex-col lg:flex-row px-4">
+            <div class="comparision space-y-5 md:px-3 px-0">
+               <div class="font-bold lg:text-[52px] space-y-10 text-2xl  text-left pt-10 md:pt-4  ">
+                  <p class="heading-font md:leading-normal leading-8 md:text-4xl  ">Ready for the MyConnect Difference?
+                  </p>
+               </div>
+               <div class="paragraph-font w-auto text-sm md:text-base  md:text-left py-4">
+                  We have several powerful plans to showcase your business and get discovered
+                  as a creative entrepreneurs. Everything you need. 
+               </div>
+            
+            </div>
+            <div class="pricing items-center bg-[#FFBD6D] rounded-3xl p-[2rem] lg:w-[60%]  shadow-[0_3px_10px_rgb(0,0,0,0.2)]   leading-loose  ">
+               <div class="space-y-4">
+                 
+                  <p class="paragraph-font md:text-normal text-sm font-medium text-[#556987]">Join the multitude of institutions and organizations relishing the ease of membership management with MyConnect. Sign up today and take the first step toward a more efficient way to stay connected with your members.</p>
+               </div>
+               <div class="flex justify-between items-center ">
+                
+                  
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="5th page md:px-10 lg:px-28  md:mb-44 md:pb-12 md:space-y-6 mt-14 md:mt-0 px-4">
+         <div class="flex flex-col items-center px-3 ">
+            <p class="heading-font md:text-4xl text-2xl font-semibold text-center ">Frequently Asked Questions</p>
+            <p class="paragraph-font p-4 ">Highly professional and capable of running your business across all digital channels.</p>
+         </div>
+         <div class="5th-page-body">
+            <div class="flex items-center">
+               <div class="question  md:border-1 lg:relative bg-white md:flex md:flex-col  md:flex-1  lg:left-8  lg:basis-[48%] md:basis-[25%] md:left-8">
+                  <div class=" md:items-center  md:justify-between p-5 md:p-0    ">
+                     <div class="accordion border-gray-200  ">
+                        <div class="accordion-item  ">
+                           <div class="accordion-button paragraph-font flex items-center justify-between    ">
+                             
+                              <div class="flex items-center">
+                                 <i class="fa-solid fa-circle circle-icon circle-icon px-4   text-[#FFE7BC]"></i>
+                                 <p>What is MyConnect?</p>
+                              </div>
+                              <div>
+                                 <i class="fas fa-chevron-down down-icon down text-[#FFE7BC] "></i>
+                                 <i class="fas fa-chevron-up up-icon up text-[#FFE7BC] "></i>
+                              </div>
+                           </div>
+                           <div class="accordion-content paragraph-font lg:hidden">
+                              <p class="py-5">MyConnect is an online members information system specifically designed for educational institutions, non-profit organizations, churches, clubs, and other community-based organizations. 
+                                 It serves as a centralized platform to effectively manage and maintain member information, facilitate communication, and streamline administrative tasks.</p>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <div class="accordion-button paragraph-font flex items-center justify-between  ">
+                              <div class="flex items-center">
+                                 <i class="fa-solid fa-circle circle-icon circle-icon px-4   text-[#FFE7BC]"></i>
+                                 <p>Can MyConnect be customized to match our organization's branding and requirements?</p>
+                              </div>
+                              <i class="fas fa-chevron-down down-icon down text-[#FFE7BC] "></i>
+                              <i class="fas fa-chevron-up up-icon up-icon up text-[#FFE7BC] "></i>
+                           </div>
+                           <div class="accordion-content paragraph-font lg:hidden">
+                              <p class="py-5">Absolutely! MyConnect is highly customizable to fit the unique branding and specific requirements of your organization. You can tailor the system with your organization's logo, 
+                                 color scheme, and other visual elements. Additionally, custom fields can be added to member profiles to capture relevant information.</p>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <div class="accordion-button paragraph-font flex items-center justify-between">
+                              
+                              <div class="flex items-center">
+                                 <i class="fa-solid fa-circle circle-icon circle-icon px-4   text-[#FFE7BC]"></i>
+                                 <p> Is MyConnect user-friendly for both administrators and members? </p>
+                              </div>
+                              <i class="fas fa-chevron-down down text-[#FFE7BC]  "></i>
+                              <i class="fas fa-chevron-up up-icon up text-[#FFE7BC] "></i>
+                           </div>
+                           <div class="accordion-content paragraph-font lg:hidden">
+                              <p class="py-5">Yes, MyConnect is designed with a user-friendly interface for both administrators and members. The system provides intuitive navigation and easy-to-use features, making it simple for administrators to manage member 
+                                 information and perform administrative tasks. Members can access their profiles, update information, register for events, and interact with the organization effortlessly.</p>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <div class="accordion-button paragraph-font flex items-center justify-between">
+                             
+                              <div class="flex items-center">
+                                 <i class="fa-solid fa-circle circle-icon circle-icon px-4   text-[#FFE7BC]"></i>
+                                 <p> Can MyConnect handle large membership databases for organizations?</p>
+                              </div>
+                              <i class="fas fa-chevron-down down text-[#FFE7BC] "></i>
+                              <i class="fas fa-chevron-up up-icon up text-[#FFE7BC] "></i>
+                           </div>
+                           <div class="accordion-content paragraph-font lg:hidden">
+                              <p class="py-5">Yes, MyConnect is capable of efficiently managing large membership databases. Whether your organization has hundreds or thousands of members, 
+                                 the system is designed to handle and organize the data effectively, ensuring smooth performance and quick access to member information.</p>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <div class="accordion-button paragraph-font flex items-center justify-between">
+                             
+                              <div class="flex items-center">
+                                 <i class="fa-solid fa-circle circle-icon circle-icon px-4   text-[#FFE7BC]"></i>
+                                 <p>How is member data secured within MyConnect?</p>
+                              </div>
+                              <i class="fas fa-chevron-down down text-[#FFE7BC] "></i>
+                              <i class="fas fa-chevron-up up-icon up text-[#FFE7BC] "></i>
+                           </div>
+                           <div class="accordion-content paragraph-font lg:hidden">
+                              <p class="py-5">MyConnect takes data security seriously. The system implements robust security measures to protect member data from unauthorized 
+                                 , loss, or misuse. It utilizes encryption during data transmission and stores information on secure servers with regular backups.</p>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <div class="accordion-button paragraph-font flex items-center justify-between">
+                             
+                              <div class="flex items-center">
+                                 <i class="fa-solid fa-circle circle-icon circle-icon px-4   text-[#FFE7BC]"></i>
+                                 <p> Can members access their own profiles and update information?</p>
+                              </div>
+                              <i class="fas fa-chevron-down down text-[#FFE7BC] "></i>
+                              <i class="fas fa-chevron-up up-icon up text-[#FFE7BC] "></i>
+                           </div>
+                           <div class="accordion-content paragraph-font lg:hidden">
+                              <p class="py-5">Yes, MyConnect provides a self-service portal for members. They can securely log in to access their profiles, update personal 
+                                 information, view event registrations, make payments/donations, and engage with other members through community features like forums or discussion boards.</p>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <div class="accordion-button paragraph-font flex items-center justify-between">
+                             
+                              <div class="flex items-center">
+                                 <i class="fa-solid fa-circle circle-icon circle-icon px-4   text-[#FFE7BC]"></i>
+                                 <p class="py-5"> Does MyConnect offer technical support for organizations?</p>
+                              </div>
+                              <i class="fas fa-chevron-down down text-[#FFE7BC] "></i>
+                              <i class="fas fa-chevron-up up-icon up text-[#FFE7BC] "></i>
+                           </div>
+                           <div class="accordion-content paragraph-font lg:hidden">
+                              <p class="py-5">Yes, MyConnect offers comprehensive technical support for organizations. Users can reach out to the support team via email, 
+                              live chat, or phone for assistance. The support team is dedicated to addressing inquiries, troubleshooting issues, and providing guidance to ensure a smooth experience with MyConnect.</p>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <div class="accordion-button paragraph-font flex items-center justify-between">
+                             
+                              <div class="flex items-center">
+                                 <i class="fa-solid fa-circle circle-icon circle-icon px-4   text-[#FFE7BC]"></i>
+                                 <p> How can our organization get started with MyConnect?</p>
+                              </div>
+                              <i class="fas fa-chevron-down down text-[#FFE7BC] "></i>
+                              <i class="fas fa-chevron-up up-icon up text-[#FFE7BC] "></i>
+                           </div>
+                           <div class="accordion-content paragraph-font lg:hidden">
+                              <p class="py-5">To get started with MyConnect, simply contact our sales team through the website or provided contact information. They will guide you through the setup process, help with data migration if required, 
+                                 and provide training and ongoing support to ensure a successful implementation of MyConnect for your organization.</p>
+                           </div>
+                        </div>
+                     
+                     </div>
+                  </div>
+               </div>
+               <div class="desc bg-[#F2F9FF] rounded-2xl  md:flex-1 hidden lg:visible lg:block min-h-[25rem] lg:basis-[52%]  ">
+                  <div class="large-content mt-8 ml-16">
+                     <p class=" questions font-bold"></p>
+                     <p class="answers mt-2"></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      </div>
+      </div>
+
+
+
+
+
+      </div>
+      </div>
+      <section class="footer relative md:flex justify-center ">
+        <div class="joinus flex flex-col md:flex-row md:justify-around border-2 px-2  mb-6 sm:mb-0 rounded-2xl mx-2 md:mx-0 md:px-11 xl:px-28 space-y-2  py-4 sm:py-10  md:bottom-[22rem] lg:bottom-[18rem]  md:m-auto md:space-x-20  bg-white md:absolute  text-black md:items-center z-[1]">
+            <p class="md:text-3xl text-2xl  md:p-0  ">Join Us</p>
+            <div class="flex place-items-end md:space-x-9 gap-x-2">
+               <div class="flex flex-col md:space-y-1  ">
+                  <label for="email">Email</label>
+                  <input type="email" placeholder="Enter your Email" class="bg-orange-300 border-orange-300 md:p-3 p-2 rounded-xl md:w-80  ">
+               </div>
+               <div>
+                  <button class=" bg-[#FFBD6D] md:pl-4 md:pr-4 md:pt-3 md:pb-3 md:rounded-xl p-2 rounded-md md:font-normal" >Subscribe</button>
+               </div>
+            </div>
+         </div>
+         <div class="footer bg-[#172432] text-white justify-center items-center   space-y-4 md:flex  md:space-x-28 md:py-20 ">           
+            <div class="grid sm:grid-cols-5 grid-cols-1 sm:gap-6 md:px-28 px-6 py-10 gap-5 ">
+
+            
+            <div class="space-y-8">
+               <img src="./images/Logo footer.png" alt="">
+               <p class="">Copyright © Travellian 2020 All rights reserved</p>
+               
+            </div>
+           
+            <ul class="font-bold menu leading-7 list-none ">Menu 
+               <li class="font-light"> Home</li>
+               <li class="font-light">Explore</li>
+               <li class="font-light">Travel</li>
+            </ul>
+           
+         
+       
+               <ul class="font-bold Information leading-7 list-none">Information
+               <li class="font-light" >Supports</li>
+               <li class="font-light">Terms & Conditions</li>
+               <li class="font-light">Privacy</li>
+            </ul>
+      
+            
+               <ul class="font-bold Contact-Info leading-7 list-none" >Contact Info 
+               <li class="font-light">+123 456 789</li>
+               <li class="font-light">info@tracker.com</li>
+               <li class="font-light">1245, New Yourk, USA</li>
+            </ul>
+            
+          
+               <div class="font-bold follow leading-7 list-none">Follow us on
+               <ul class="text-white flex gap-5 py-2">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-pinterest"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-twitter"></i>
+               
+              </ul>
+            </div>
+               
+         
+        </div>
+         </div>
+      </section>
+      <script src="navbar.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="verticalslider.js"></script>
+      <script src="slider.js"></script>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script src="index.js"></script>
+      <script src="Opinionslider.js"></script>
+   </body>
+</html>
